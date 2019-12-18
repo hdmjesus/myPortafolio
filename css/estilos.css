@@ -15,7 +15,7 @@ body
     font-size: 1rem;
 }
 
-.contenedor
+.contenedor                                                                                                                                         
 {
     width: 90%;
     max-width: 1000px;
@@ -132,12 +132,13 @@ header .contenedor-texto .texto .profecion
 .main .acerca-de .texto
 {
     color: #5a5a5a;
-    font-weight: 600;
+    font-weight:300;
     line-height: 30px;
     text-align: justify;
     width: 80%;
     font-size: 1rem;
     margin: 40px auto 60px auto;
+    font-family: "Arial";
 }
 .main .acerca-de .texto .titulo
 {
@@ -401,7 +402,7 @@ footer .contacto .formulario input[type="email"]:focus,
 footer .contacto .formulario textarea:focus
 
 {
-    border:4px solid #3895ea;
+    border:2px solid #3895ea;
 }
 
 footer .redes-sociales
