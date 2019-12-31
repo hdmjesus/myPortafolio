@@ -57,6 +57,23 @@ header .menu a
     border-bottom: 2px solid transparent;
     font-size:1rem ;
 }
+header .cabeza
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logopersonal
+{
+
+}
+
+header .logopersonal img
+{
+    width: 80px;
+}
 
 header .menu a:hover
 {
@@ -268,7 +285,7 @@ section .trabajos
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
    justify-content: space-around;
 
 }
@@ -297,6 +314,7 @@ section .trabajos
 
 {
     text-align: center;
+    font-size: 12px;
 }
 
 .main .miniproyectos .contenedor-miniproyectos .miniproyecto .nombre
