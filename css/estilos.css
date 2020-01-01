@@ -173,6 +173,12 @@ header .contenedor-texto .texto .profecion
     text-decoration: underline;
 }
 
+span 
+{
+    text-decoration: underline;
+    color:blue;
+}
+
 /* --------------///TRABAJOS/////--------------- */
 /* --------------///TRABAJOS/////--------------- */
 /* --------------///TRABAJOS/////--------------- */
@@ -493,6 +499,17 @@ footer .redes-sociales .whatapps:hover
     {
         text-align: center;
     }
+
+    header .cabeza .logopersonal
+    {
+       margin: 30px auto
+    }
+    header .cabeza .logopersonal img
+    {
+       width: 50px;
+       
+    }
+
 
     .main .trabajos .contenedor-trabajos .trabajo
     {
